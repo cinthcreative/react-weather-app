@@ -6,7 +6,7 @@
   color: rgb (135, 135, 135);
 }
 
-.Weather h1 {
+.Weather h2 {
   font-size: 24px;
   line-height: 29px;
   font-weight: 100;
@@ -26,7 +26,7 @@
 }
 .Weather canvas {
   margin-top: 5px;
-  margin-right: 10px;
+  margin-right: 5px;
   display: inline-block;
 }
 
