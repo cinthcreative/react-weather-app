@@ -19,19 +19,20 @@ export default function WeatherInfo(props) {
               alt={props.data.description}
               className="float-left"
             />
+
             <div className="float-left">
               <span className="temperature">
                 {Math.round(props.data.temperature)}
               </span>
-              <span className="unit">°C</span>
+              <span className="unit">°F</span>
             </div>
           </div>
         </div>
 
         <div className="col-6">
           <ul>
-            <li>Humidity: {props.data.humidity}</li>
-            <li>Wind: {props.data.wind} km/h</li>
+            <li>Humidity: {props.data.humidity}%</li>
+            <li>Wind: {Math.round(props.data.wind)} m/h</li>
           </ul>
         </div>
       </div>
