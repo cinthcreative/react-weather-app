@@ -14,9 +14,10 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Cinthia Koutianov
+            {" "}
+            Cinthia Koutianov.
           </a>{" "}
-          and it is {""}
+          It is {""}
           <a
             href="https://github.com/cinthcreative/react-weather-app"
             target="_blank"
