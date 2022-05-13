@@ -26,7 +26,11 @@ export default function App() {
             Open-sourced on GitHub
           </a>{" "}
           and{" "}
-          <a href="https://curious-moonbeam-d6eb04.netlify.app/">
+          <a
+            href="https://curious-moonbeam-d6eb04.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             hosted on Netlify.
           </a>
