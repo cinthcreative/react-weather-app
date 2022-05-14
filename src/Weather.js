@@ -14,6 +14,9 @@ export default function Weather(props) {
       ready: true,
       coordinates: response.data.coord,
       temperature: response.data.main.temp,
+      high: response.data.main.temp_max,
+      low: response.data.main.temp_min,
+      feelslike: response.data.main.feels_like,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
       date: new Date(response.data.dt * 1000),
@@ -25,7 +28,7 @@ export default function Weather(props) {
 
   function search() {
     const apiKey = "551ddcf4ab5281fea3bcb2c001c92a45";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
     axios.get(apiUrl).then(handleResponse);
   }
 
@@ -56,7 +59,7 @@ export default function Weather(props) {
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-primary w-100"
+                className="btn btn-secondary w-100"
               />
             </div>
           </div>

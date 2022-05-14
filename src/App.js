@@ -15,25 +15,25 @@ export default function App() {
             rel="noreferrer"
           >
             {" "}
-            Cinthia Koutianov.
+            Cinthia Koutianov
           </a>{" "}
-          It is {""}
+          👩🏻‍💻 It is open-sourced on{" "}
           <a
             href="https://github.com/cinthcreative/react-weather-app"
             target="_blank"
             rel="noreferrer"
           >
-            Open-sourced on GitHub
-          </a>{" "}
-          and{" "}
+            GitHub
+          </a>
+          🐱 and hosted on{" "}
           <a
             href="https://curious-moonbeam-d6eb04.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >
-            {" "}
-            hosted on Netlify.
-          </a>
+            Netlify
+          </a>{" "}
+          💠
         </footer>
       </div>
     </div>
