@@ -21,7 +21,9 @@ export default function WeatherInfo(props) {
             </div>
 
             <div className="float-left">
-              <WeatherTemperature celsius={props.data.temperature} />
+              <WeatherTemperature
+                fahrenheit={Math.round(props.data.temperature * 9) / 5 + 32}
+              />
             </div>
           </div>
         </div>
